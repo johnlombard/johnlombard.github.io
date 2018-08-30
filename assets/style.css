@@ -2,23 +2,42 @@
 .navbar-nav {
     float:none;
     margin:0 auto;
-    display: block;
     text-align: center;
    
 }
 
 .navbar-nav  {
-    display: inline-block;
+    
     float:none;
+}
+.bg-light {
+    background-color: transparent!important;
 }
  
 
 
 body {
-    
+    font-family: 'Oswald', sans-serif;
     background-image: url("images/mountain.jpg");
     background-repeat: no-repeat;
-    background-size: 2000px 1000px; }
+    background-size: 2000px 1250px; }
+
+
+.name {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    color: rgba(0,0,0,.5);
+    font-size: 54px!important;
+    opacity: 100%;
+    
+}    
+
+.row {
+    
+}
+
+
 
 
 
