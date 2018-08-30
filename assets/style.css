@@ -10,31 +10,71 @@
     
     float:none;
 }
+
+/* removes navbar color */
 .bg-light {
     background-color: transparent!important;
+}
+
+
+/* items within the nav bar */
+.navbar-light .navbar-nav .nav-link{
+    color: white;
 }
  
 
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("images/moss.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 1250px; 
+    background-position: 0px -250px;
+    
+}
+
+#portfolio-body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("images/sea.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 1250px; 
+    background-position: 0px -250px;
+}
+
+#resume-body {
+    font-family: 'Montserrat', sans-serif;
     background-image: url("images/mountain.jpg");
     background-repeat: no-repeat;
-    background-size: 2000px 1250px; }
+    background-size: 2000px 1250px; 
+    background-position: 0px -250px;
+}
+#thoughts-body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("images/Road.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 1250px; 
+    background-position: 0px -250px;
+}
 
 
+
+/* div for the center name */
 .name {
-    position: fixed;
-    top: 50%;
-    left: 45%;
-    color: rgba(0,0,0,.5);
+    
+    margin: 25% auto;
+    width: 300px;
+    color: white;
     font-size: 54px!important;
     opacity: 100%;
     
+    
+   
+    
 }    
 
-.row {
-    
+/* material within the center div */
+.center-name {
+    font-weight: bold;
 }
 
 
