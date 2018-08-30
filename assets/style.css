@@ -1,0 +1,22 @@
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+   
+}
+
+.navbar-nav  {
+    display: inline-block;
+    float:none;
+}
+
+body {
+    background-image: url("/Users/John/Desktop/johnlombard.github.io/assets/images/test.jpg");
+}
+
+
+.row {
+    align-self: center
+}
