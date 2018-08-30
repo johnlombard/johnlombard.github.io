@@ -11,12 +11,14 @@
     display: inline-block;
     float:none;
 }
+ 
+
 
 body {
-    background-image: url("/Users/John/Desktop/johnlombard.github.io/assets/images/test.jpg");
-}
+    
+    background-image: url("images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px; }
 
 
-.row {
-    align-self: center
-}
+
