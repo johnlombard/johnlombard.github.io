@@ -1,4 +1,4 @@
-
+/* NAV BAR Begin */
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -21,63 +21,107 @@
 .navbar-light .navbar-nav .nav-link{
     color: white;
 }
+/* NAV BAR END */
  
 
-
+/* Body Beginning */
 body {
     font-family: 'Montserrat', sans-serif;
+}
+    
+/* }
+
+/* Background Images */
+#index-body {
     background-image: url("images/moss.jpg");
-    background-repeat: no-repeat;
-    background-size: 2000px 1250px; 
-    background-position: 0px -250px;
+    background-size: cover; 
+    height: 800px;
+    position: relative;
+}
+#portfolio-body {
+    background-image: url("images/sea.jpg");
+    background-size: cover; 
+    color: white;
+    height: 500px;
+    position: relative;
+    text-align: center;
     
 }
 
-#portfolio-body {
-    font-family: 'Montserrat', sans-serif;
-    background-image: url("images/sea.jpg");
-    background-repeat: no-repeat;
-    background-size: 2000px 1250px; 
-    background-position: 0px -250px;
+#portfolio {
+    padding: 25px 0;
 }
 
-#resume-body {
-    font-family: 'Montserrat', sans-serif;
-    background-image: url("images/mountain.jpg");
-    background-repeat: no-repeat;
-    background-size: 2000px 1250px; 
-    background-position: 0px -250px;
+.portfolio-item {
+    margin: 5px;
 }
-#thoughts-body {
-    font-family: 'Montserrat', sans-serif;
-    background-image: url("images/Road.jpg");
-    background-repeat: no-repeat;
-    background-size: 2000px 1250px; 
-    background-position: 0px -250px;
+
+.portfolio-link {
+    margin: auto;
+    color:white;
+    font-size: 25px;    
 }
+#finapp {
+    /* position: relative; */
+    height: 200px;
+    width: 300px;
+}
+
+.seemore {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.space {
+    height: 300px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.row {
+    padding-top: 25px;
+}
+
+.col {
+    height: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+   
+}
+
 
 
 
 /* div for the center name */
-.name {
+/* .name { */
     
-    margin: 25% auto;
-    width: 300px;
+    /* text-align: center; */
+    /* width: 100%;
+    
+    margin-top: 5%;
     color: white;
     font-size: 54px!important;
-    opacity: 100%;
-    
-    
-   
-    
-}    
+}     */
 
 /* material within the center div */
-.center-name {
+/* .center-name {
     font-weight: bold;
-}
+    text-align: center;
+} */
+
+/* .container {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 75%;
+    position: relative;
+} */
 
 
 
 
 
+/* Body END*/
