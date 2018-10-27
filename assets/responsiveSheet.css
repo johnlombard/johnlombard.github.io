@@ -29,6 +29,7 @@
     .nav-pills {
         display:table-cell;
     }
+   
 } 
 /* Mobile Centering nav End */
 
@@ -55,6 +56,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    
+
 }
 
 /* Background Images */
@@ -63,6 +66,8 @@ body {
     background-size: cover; 
     height: 700px;
     position: relative;
+    width: 100%;
+
 }
 #portfolio-body {
     background-image: url("images/sea.jpg");
@@ -71,31 +76,30 @@ body {
     height: 700px;
     position: relative;
     text-align: center;
+    width: 100%;
     
 }
 
+
 #portfolio {
     padding: 25px 0;
-}
-
+} 
+/*
 .portfolio-item {
     margin: 5px;
 }
-
+*/
 .portfolio-link {
     margin: auto;
     color:white;
     font-size: 25px;    
 }
-#finapp {
-    /* position: relative; */
-    height: 200px;
-    width: 300px;
-}
-
-.seemore {
-    width: 100%;
-    text-align: center;
+#project { 
+     position: relative; 
+    height: 75%;
+    padding-top: 15px;
+    width: 80%;
+    border-radius: 25px;
 }
 
 
@@ -115,5 +119,28 @@ body {
     height: 50%;
     background-color: transparent;
     border: 1px solid white;
-   
-}
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+} 
+
+@media only screen and (max-width: 535px) {
+    #portfolio-item {
+        margin: auto;
+        font-size: 20px;    
+    }
+    .col {
+        height: 25%;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin: 10px 35px 0 ;
+
+    } 
+    #project { 
+    position: relative; 
+       height: 55%;
+       padding-top: 15px;
+       width: 80%;
+       border-radius: 25px;
+   }
+} 
