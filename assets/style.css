@@ -88,11 +88,12 @@ body {
 .col {
     height: 50%;
     background-color: transparent;
-    border: 1px solid white;
+   
    
 }
 .card {
     color: black;
+    width: 14rem;
 }
 
 
