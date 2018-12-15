@@ -1,8 +1,8 @@
 # johnlombard.github.io
-Personal Page
+Hello! Welcome to my personal page! 
+
+I am a junior developer with experience in Javascript!
 
 
 
 
--change background images 
--Filter through different technologies and show each project
