@@ -1,8 +1,4 @@
 # johnlombard.github.io
-Personal Page
+Welcome to my personal page!
 
-
-
-
--change background images 
--Filter through different technologies and show each project
+I am a developer working with JavaScript! Let's connect!
